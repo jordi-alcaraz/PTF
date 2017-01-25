@@ -1,3 +1,8 @@
+$psc_frontend --apprun="bt-mz.A.2" --mpinumprocs=2 --phase=OA_phase --debug=6 --tune=mpiparameters --force-localhost
+
+
+
+
 Hint: Creating new application instance: 0x280e200
 Periscope Performance Analysis Tool (ver. 2.0)
 [psc_frontend][INFO:fe] Preparing to start the performance analysis...
