@@ -1,0 +1,329 @@
+Hint: Creating new application instance: 0xd49200
+Periscope Performance Analysis Tool (ver. 2.0)
+[psc_frontend][INFO:fe] Preparing to start the performance analysis...
+[psc_frontend][DBG:6:fe] Started registry with pid 19258
+[psc_frontend][DBG:6:fe] Trying to start registry service on localhost:50001 in PID 0
+[psc_frontend][DBG:2:fe] RegistryService(): Started.
+[psc_frontend][DBG:5:fe] Using registry service at 'aopcja:50356'
+[psc_frontend][DBG:2:fe] Localhost startup activated! Will NOT use SSH for starting the agents!
+[psc_frontend][DBG:5:fe] Using own port number '50002'
+[psc_frontend][DBG:1:fe] Using phase region "OA_phase" 
+[psc_frontend][DBG:5:fe] Using 18000 seconds timeout
+[psc_frontend][DBG:5:fe] Using port 50002
+[psc_frontend][DBG:2:fe] Frontend up and running on aopcja:50002
+[psc_frontend][DBG:2:fe] Using maxfan=4
+[psc_frontend][DBG:2:fe] Using output file: properties_tune_19257.psc
+[psc_frontend][DBG:2:fe] Contacting registry service...
+[psc_frontend][DBG:2:fe] Registration successful!
+[psc_frontend][INFO:fe] Starting application bt-mz.A.2 using 2 MPI procs and 1 OpenMP threads...
+[psc_frontend][DBG:5:fe] waiting for startup of 2 components...
+[psc_frontend][DBG:1:fe] Starting application in interactive partition: >export SCOREP_ONLINEACCESS_ENABLE=true; export SCOREP_ENABLE_TRACING=false; export SCOREP_ONLINEACCESS_REG_PORT=50356; export SCOREP_ONLINEACCESS_REG_HOST=aopcja; export SCOREP_ONLINEACCESS_APPL_NAME=appl19257; export SCOREP_TUNING_PLUGINS=EnoptTP,OpenMPTP; export OMP_NUM_THREADS=1;  mpiexec -n 2 bt-mz.A.2<
+[Score-P] src/services/tuning/scorep_tuning_service_management.c:223: Warning: Could not open tuning plugin EnoptTP. Error message was: libEnoptTP.so: cannot open shared object file: No such file or directory
+[Score-P] src/services/tuning/scorep_tuning_service_management.c:223: Warning: Could not open tuning plugin OpenMPTP. Error message was: libOpenMPTP.so: cannot open shared object file: No such file or directory
+[Score-P] src/services/tuning/scorep_tuning_service_management.c:223: Warning: Could not open tuning plugin EnoptTP. Error message was: libEnoptTP.so: cannot open shared object file: No such file or directory
+[Score-P] src/services/tuning/scorep_tuning_service_management.c:223: Warning: Could not open tuning plugin OpenMPTP. Error message was: libOpenMPTP.so: cannot open shared object file: No such file or directory
+
+
+ NAS Parallel Benchmarks (NPB3.2-MZ-MPI) - BT-MZ MPI+OpenMP Benchmark
+
+ Number of zones:   4 x   4
+ Iterations: 200    dt:   0.000800
+ Number of active processes:     2
+
+ Use the default load factors with threads
+ Total number of threads:      2  (  1.0 threads/process)
+
+ Calculated speedup =      1.98
+
+[psc_frontend][DBG:1:fe] components started up: 0 (of 2)
+ Time step    1
+ Time step    2
+ Time step    3
+[psc_frontend][DBG:1:fe] components started up: 0 (of 2)
+ Time step    4
+ Time step    5
+ Time step    6
+ Time step    7
+ Time step    8
+[psc_frontend][DBG:1:fe] components started up: 0 (of 2)
+ Time step    9
+ Time step   10
+ Time step   11
+ Time step   12
+ Time step   13
+[psc_frontend][DBG:1:fe] components started up: 0 (of 2)
+ Time step   14
+ Time step   15
+ Time step   16
+ Time step   17
+[psc_frontend][DBG:1:fe] components started up: 0 (of 2)
+ Time step   18
+ Time step   19
+ Time step   20
+ Time step   21
+ Time step   22
+[psc_frontend][DBG:1:fe] components started up: 0 (of 2)
+ Time step   23
+ Time step   24
+ Time step   25
+ Time step   26
+ Time step   27
+[psc_frontend][DBG:1:fe] components started up: 0 (of 2)
+ Time step   28
+ Time step   29
+ Time step   30
+ Time step   31
+[psc_frontend][DBG:1:fe] components started up: 0 (of 2)
+ Time step   32
+ Time step   33
+ Time step   34
+ Time step   35
+ Time step   36
+[psc_frontend][DBG:1:fe] components started up: 0 (of 2)
+ Time step   37
+ Time step   38
+ Time step   39
+ Time step   40
+ Time step   41
+[psc_frontend][DBG:1:fe] components started up: 0 (of 2)
+ Time step   42
+ Time step   43
+ Time step   44
+ Time step   45
+ Time step   46
+[psc_frontend][DBG:1:fe] components started up: 0 (of 2)
+ Time step   47
+ Time step   48
+ Time step   49
+ Time step   50
+ Time step   51
+[psc_frontend][DBG:1:fe] components started up: 0 (of 2)
+ Time step   52
+ Time step   53
+ Time step   54
+ Time step   55
+ Time step   56
+[psc_frontend][DBG:1:fe] components started up: 0 (of 2)
+ Time step   57
+ Time step   58
+ Time step   59
+ Time step   60
+ Time step   61
+[psc_frontend][DBG:1:fe] components started up: 0 (of 2)
+ Time step   62
+ Time step   63
+ Time step   64
+ Time step   65
+ Time step   66
+[psc_frontend][DBG:1:fe] components started up: 0 (of 2)
+ Time step   67
+ Time step   68
+ Time step   69
+ Time step   70
+[psc_frontend][DBG:1:fe] components started up: 0 (of 2)
+ Time step   71
+ Time step   72
+ Time step   73
+ Time step   74
+ Time step   75
+[psc_frontend][DBG:1:fe] components started up: 0 (of 2)
+ Time step   76
+ Time step   77
+ Time step   78
+ Time step   79
+ Time step   80
+[psc_frontend][DBG:1:fe] components started up: 0 (of 2)
+ Time step   81
+ Time step   82
+ Time step   83
+ Time step   84
+ Time step   85
+[psc_frontend][DBG:1:fe] components started up: 0 (of 2)
+ Time step   86
+ Time step   87
+ Time step   88
+ Time step   89
+ Time step   90
+[psc_frontend][DBG:1:fe] components started up: 0 (of 2)
+ Time step   91
+ Time step   92
+ Time step   93
+ Time step   94
+ Time step   95
+[psc_frontend][DBG:1:fe] components started up: 0 (of 2)
+ Time step   96
+ Time step   97
+ Time step   98
+ Time step   99
+ Time step  100
+[psc_frontend][DBG:1:fe] components started up: 0 (of 2)
+ Time step  101
+ Time step  102
+ Time step  103
+ Time step  104
+ Time step  105
+[psc_frontend][DBG:1:fe] components started up: 0 (of 2)
+ Time step  106
+ Time step  107
+ Time step  108
+ Time step  109
+[psc_frontend][DBG:1:fe] components started up: 0 (of 2)
+ Time step  110
+ Time step  111
+ Time step  112
+ Time step  113
+ Time step  114
+[psc_frontend][DBG:1:fe] components started up: 0 (of 2)
+ Time step  115
+ Time step  116
+ Time step  117
+ Time step  118
+ Time step  119
+[psc_frontend][DBG:1:fe] components started up: 0 (of 2)
+ Time step  120
+ Time step  121
+ Time step  122
+ Time step  123
+ Time step  124
+[psc_frontend][DBG:1:fe] components started up: 0 (of 2)
+ Time step  125
+ Time step  126
+ Time step  127
+ Time step  128
+ Time step  129
+[psc_frontend][DBG:1:fe] components started up: 0 (of 2)
+ Time step  130
+ Time step  131
+ Time step  132
+ Time step  133
+ Time step  134
+[psc_frontend][DBG:1:fe] components started up: 0 (of 2)
+ Time step  135
+ Time step  136
+ Time step  137
+ Time step  138
+ Time step  139
+[psc_frontend][DBG:1:fe] components started up: 0 (of 2)
+ Time step  140
+ Time step  141
+ Time step  142
+ Time step  143
+[psc_frontend][DBG:1:fe] components started up: 0 (of 2)
+ Time step  144
+ Time step  145
+ Time step  146
+ Time step  147
+ Time step  148
+[psc_frontend][DBG:1:fe] components started up: 0 (of 2)
+ Time step  149
+ Time step  150
+ Time step  151
+ Time step  152
+ Time step  153
+[psc_frontend][DBG:1:fe] components started up: 0 (of 2)
+ Time step  154
+ Time step  155
+ Time step  156
+ Time step  157
+ Time step  158
+[psc_frontend][DBG:1:fe] components started up: 0 (of 2)
+ Time step  159
+ Time step  160
+ Time step  161
+ Time step  162
+ Time step  163
+[psc_frontend][DBG:1:fe] components started up: 0 (of 2)
+ Time step  164
+ Time step  165
+ Time step  166
+ Time step  167
+ Time step  168
+[psc_frontend][DBG:1:fe] components started up: 0 (of 2)
+ Time step  169
+ Time step  170
+ Time step  171
+ Time step  172
+ Time step  173
+[psc_frontend][DBG:1:fe] components started up: 0 (of 2)
+ Time step  174
+ Time step  175
+ Time step  176
+ Time step  177
+[psc_frontend][DBG:1:fe] components started up: 0 (of 2)
+ Time step  178
+ Time step  179
+ Time step  180
+ Time step  181
+ Time step  182
+[psc_frontend][DBG:1:fe] components started up: 0 (of 2)
+ Time step  183
+ Time step  184
+ Time step  185
+ Time step  186
+ Time step  187
+[psc_frontend][DBG:1:fe] components started up: 0 (of 2)
+ Time step  188
+ Time step  189
+ Time step  190
+ Time step  191
+ Time step  192
+[psc_frontend][DBG:1:fe] components started up: 0 (of 2)
+ Time step  193
+ Time step  194
+ Time step  195
+ Time step  196
+ Time step  197
+[psc_frontend][DBG:1:fe] components started up: 0 (of 2)
+ Time step  198
+ Time step  199
+ Time step  200
+ Verification being performed for class A
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5536703889522E+05 0.5536703889522E+05 0.5887309627164E-13
+           2 0.5077835038405E+04 0.5077835038405E+04 0.6143497777078E-13
+           3 0.1067391361067E+05 0.1067391361067E+05 0.4493829753649E-12
+           4 0.6441179694972E+04 0.6441179694972E+04 0.5379720762114E-13
+           5 0.4371926324069E+05 0.4371926324069E+05 0.9253203584915E-13
+ Comparison of RMS-norms of solution error
+           1 0.6716797714343E+04 0.6716797714343E+04 0.6634893930438E-13
+           2 0.6512687902160E+03 0.6512687902160E+03 0.4905194580133E-13
+           3 0.1332930740128E+04 0.1332930740128E+04 0.2519492637685E-12
+           4 0.7848302089180E+03 0.7848302089180E+03 0.4925081168657E-13
+           5 0.5429053878818E+04 0.5429053878818E+04 0.8811741857989E-13
+ Verification Successful
+
+
+ BT-MZ Benchmark Completed.
+ Class           =                        A
+ Size            =            128x  128x 16
+ Iterations      =                      200
+ Time in seconds =                   125.85
+ Total processes =                        2
+ Total threads   =                        2
+ Mop/s total     =                  1161.75
+ Mop/s/thread    =                   580.87
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      3.2
+ Compile date    =              24 Jan 2017
+
+ Compile options:
+    F77          = scorep --online-access --user mpif90 -fopen...
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = (none)
+    FLINKFLAGS   = -openmp
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+[psc_frontend][DBG:1:fe] components started up: 0 (of 2)
+[psc_frontend][ERR:fe] Just_started: Error starting the application! Terminating...
+export SCOREP_ONLINEACCESS_ENABLE=true; export SCOREP_ENABLE_TRACING=false; export SCOREP_ONLINEACCESS_REG_PORT=50356; export SCOREP_ONLINEACCESS_REG_HOST=aopcja; export SCOREP_ONLINEACCESS_APPL_NAME=appl19257; export SCOREP_TUNING_PLUGINS=EnoptTP,OpenMPTP;

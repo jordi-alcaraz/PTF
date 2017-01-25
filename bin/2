@@ -1,0 +1,54 @@
+[psc_frontend][ERR:fe] Error parsing command line parameters.
+Usage: psc_frontend <options>
+  [--help]                 (Displays this help message)
+  [--version]              (Version of Periscope)
+  [--appname=name]         (Name of the application)
+  [--apprun=commandline]   (Command used to run the application)
+  [--mpinumprocs=n]        (Number of MPI processes)
+  [--ompnumthreads=n]      (Number of OpenMP threads)
+  [--strategy=name]        (e.g. EnergyGranularityBF, Importance, OMP, PerfDyn-OMP, PerfDyn-MPI, PerfDyn-Time, MPI)
+  [--tune=name]            (e.g. adaptivesequence, compilerflags, dvfs, fixedsequence, mpi-num-procs, mpiparameters, pcap)
+  [--phase=name]           (Name of the ScoreP user phase region)
+  [--uninstrumented]       (Application was not instrumented)
+  [--starter=name]         (e.g. FastInteractive/Interactive/SLURM)
+  [--force-localhost]      (Do not use SSH to start the agents)
+  [--debug=n]              (Max debug level)
+  [--selective-debug=list] (Individual debugging level names separated by comma)
+   Autoinstrument
+   AgentApplComm
+   OnlineClustering
+   PerformanceDatabase
+   MRItrace
+   SCAovhd
+   FrontendStateMachines
+   FrontendStarters
+   AutotuneAll
+   AutotunePlugins
+   AutotuneSearch
+   AutotuneAgentStrategy
+   AutotuneMRIMonitor
+   ACECommunication
+   EnergyAnalysis
+   HierarchySetup
+   QualityExpressions
+   QualityExpressionEvents
+  [--statemachine-trace    (Collects and prints state-machine transitions)
+  [--registry=host:port]   (Address of the registry service, optional)
+  [--port=n]               (Local port number, optional)
+  [--maxfan=n]             (Max. number of child agents, default=4)
+  [--maxcluster=n]         (Max. number of processes controlled by an agent, default=4)
+  [--maxthreads=n]         (Max. number of threads assigned to a node agent)
+  [--timeout=n]            (Timeout for startup of agent hierarchy)
+  [--delay=n]              (Search delay in phase executions)
+  [--duration=n]           (Search delay in seconds of phase)
+  [--masterhost=hostname]  (Name of the host where the frontend starts)
+  [--hlagenthosts=list]    (List with host names of HL agents, e.g. --hlagenthost=h1,h2,...)
+  [--nodeagenthosts=list]  (List with host names of analysis agents, e.g. --nodeagenthosts=h1,h2,...)
+  [--agenthostfile=name]   (File containing host configuration)
+  [--dontcluster]          (Do not try to cluster the properties in the HL Agents)
+  [--manual]               (Run Periscope in manual mode)
+  [--property=name]        (Name of a property to export)
+  [--propfile=filename]    (File to output the properties)
+  [--nrprops=n]            (Limit the number of found properties to be printed)
+  [--pedantic]             (Shows all detected properties)
+  [--cfs-config=filename]  (Relative path to the CFS plugin configuration file)
