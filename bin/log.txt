@@ -1,10 +1,10 @@
-Hint: Creating new application instance: 0xd49200
+Hint: Creating new application instance: 0x280e200
 Periscope Performance Analysis Tool (ver. 2.0)
 [psc_frontend][INFO:fe] Preparing to start the performance analysis...
-[psc_frontend][DBG:6:fe] Started registry with pid 19258
+[psc_frontend][DBG:6:fe] Started registry with pid 19443
 [psc_frontend][DBG:6:fe] Trying to start registry service on localhost:50001 in PID 0
 [psc_frontend][DBG:2:fe] RegistryService(): Started.
-[psc_frontend][DBG:5:fe] Using registry service at 'aopcja:50356'
+[psc_frontend][DBG:5:fe] Using registry service at 'aopcja:50452'
 [psc_frontend][DBG:2:fe] Localhost startup activated! Will NOT use SSH for starting the agents!
 [psc_frontend][DBG:5:fe] Using own port number '50002'
 [psc_frontend][DBG:1:fe] Using phase region "OA_phase" 
@@ -12,12 +12,12 @@ Periscope Performance Analysis Tool (ver. 2.0)
 [psc_frontend][DBG:5:fe] Using port 50002
 [psc_frontend][DBG:2:fe] Frontend up and running on aopcja:50002
 [psc_frontend][DBG:2:fe] Using maxfan=4
-[psc_frontend][DBG:2:fe] Using output file: properties_tune_19257.psc
+[psc_frontend][DBG:2:fe] Using output file: properties_tune_19441.psc
 [psc_frontend][DBG:2:fe] Contacting registry service...
 [psc_frontend][DBG:2:fe] Registration successful!
 [psc_frontend][INFO:fe] Starting application bt-mz.A.2 using 2 MPI procs and 1 OpenMP threads...
 [psc_frontend][DBG:5:fe] waiting for startup of 2 components...
-[psc_frontend][DBG:1:fe] Starting application in interactive partition: >export SCOREP_ONLINEACCESS_ENABLE=true; export SCOREP_ENABLE_TRACING=false; export SCOREP_ONLINEACCESS_REG_PORT=50356; export SCOREP_ONLINEACCESS_REG_HOST=aopcja; export SCOREP_ONLINEACCESS_APPL_NAME=appl19257; export SCOREP_TUNING_PLUGINS=EnoptTP,OpenMPTP; export OMP_NUM_THREADS=1;  mpiexec -n 2 bt-mz.A.2<
+[psc_frontend][DBG:1:fe] Starting application in interactive partition: >export SCOREP_ONLINEACCESS_ENABLE=true; export SCOREP_ENABLE_TRACING=false; export SCOREP_ONLINEACCESS_REG_PORT=50452; export SCOREP_ONLINEACCESS_REG_HOST=aopcja; export SCOREP_ONLINEACCESS_APPL_NAME=appl19441; export SCOREP_TUNING_PLUGINS=EnoptTP,OpenMPTP; export OMP_NUM_THREADS=1;  mpiexec -n 2 bt-mz.A.2<
 [Score-P] src/services/tuning/scorep_tuning_service_management.c:223: Warning: Could not open tuning plugin EnoptTP. Error message was: libEnoptTP.so: cannot open shared object file: No such file or directory
 [Score-P] src/services/tuning/scorep_tuning_service_management.c:223: Warning: Could not open tuning plugin OpenMPTP. Error message was: libOpenMPTP.so: cannot open shared object file: No such file or directory
 [Score-P] src/services/tuning/scorep_tuning_service_management.c:223: Warning: Could not open tuning plugin EnoptTP. Error message was: libEnoptTP.so: cannot open shared object file: No such file or directory
@@ -108,14 +108,14 @@ Periscope Performance Analysis Tool (ver. 2.0)
  Time step   58
  Time step   59
  Time step   60
- Time step   61
 [psc_frontend][DBG:1:fe] components started up: 0 (of 2)
+ Time step   61
  Time step   62
  Time step   63
  Time step   64
  Time step   65
- Time step   66
 [psc_frontend][DBG:1:fe] components started up: 0 (of 2)
+ Time step   66
  Time step   67
  Time step   68
  Time step   69
@@ -149,20 +149,20 @@ Periscope Performance Analysis Tool (ver. 2.0)
  Time step   92
  Time step   93
  Time step   94
- Time step   95
 [psc_frontend][DBG:1:fe] components started up: 0 (of 2)
+ Time step   95
  Time step   96
  Time step   97
  Time step   98
  Time step   99
- Time step  100
 [psc_frontend][DBG:1:fe] components started up: 0 (of 2)
+ Time step  100
  Time step  101
  Time step  102
  Time step  103
  Time step  104
- Time step  105
 [psc_frontend][DBG:1:fe] components started up: 0 (of 2)
+ Time step  105
  Time step  106
  Time step  107
  Time step  108
@@ -190,20 +190,20 @@ Periscope Performance Analysis Tool (ver. 2.0)
  Time step  126
  Time step  127
  Time step  128
- Time step  129
 [psc_frontend][DBG:1:fe] components started up: 0 (of 2)
+ Time step  129
  Time step  130
  Time step  131
  Time step  132
  Time step  133
- Time step  134
 [psc_frontend][DBG:1:fe] components started up: 0 (of 2)
+ Time step  134
  Time step  135
  Time step  136
  Time step  137
  Time step  138
- Time step  139
 [psc_frontend][DBG:1:fe] components started up: 0 (of 2)
+ Time step  139
  Time step  140
  Time step  141
  Time step  142
@@ -237,14 +237,14 @@ Periscope Performance Analysis Tool (ver. 2.0)
  Time step  165
  Time step  166
  Time step  167
- Time step  168
 [psc_frontend][DBG:1:fe] components started up: 0 (of 2)
+ Time step  168
  Time step  169
  Time step  170
  Time step  171
  Time step  172
- Time step  173
 [psc_frontend][DBG:1:fe] components started up: 0 (of 2)
+ Time step  173
  Time step  174
  Time step  175
  Time step  176
@@ -266,17 +266,18 @@ Periscope Performance Analysis Tool (ver. 2.0)
  Time step  189
  Time step  190
  Time step  191
- Time step  192
 [psc_frontend][DBG:1:fe] components started up: 0 (of 2)
+ Time step  192
  Time step  193
  Time step  194
  Time step  195
  Time step  196
- Time step  197
 [psc_frontend][DBG:1:fe] components started up: 0 (of 2)
+ Time step  197
  Time step  198
  Time step  199
  Time step  200
+[psc_frontend][DBG:1:fe] components started up: 0 (of 2)
  Verification being performed for class A
  accuracy setting for epsilon =  0.1000000000000E-07
  Comparison of RMS-norms of residual
@@ -298,11 +299,11 @@ Periscope Performance Analysis Tool (ver. 2.0)
  Class           =                        A
  Size            =            128x  128x 16
  Iterations      =                      200
- Time in seconds =                   125.85
+ Time in seconds =                   127.00
  Total processes =                        2
  Total threads   =                        2
- Mop/s total     =                  1161.75
- Mop/s/thread    =                   580.87
+ Mop/s total     =                  1151.27
+ Mop/s/thread    =                   575.63
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                      3.2
@@ -326,4 +327,4 @@ Periscope Performance Analysis Tool (ver. 2.0)
 
 [psc_frontend][DBG:1:fe] components started up: 0 (of 2)
 [psc_frontend][ERR:fe] Just_started: Error starting the application! Terminating...
-export SCOREP_ONLINEACCESS_ENABLE=true; export SCOREP_ENABLE_TRACING=false; export SCOREP_ONLINEACCESS_REG_PORT=50356; export SCOREP_ONLINEACCESS_REG_HOST=aopcja; export SCOREP_ONLINEACCESS_APPL_NAME=appl19257; export SCOREP_TUNING_PLUGINS=EnoptTP,OpenMPTP;
+export SCOREP_ONLINEACCESS_ENABLE=true; export SCOREP_ENABLE_TRACING=false; export SCOREP_ONLINEACCESS_REG_PORT=50452; export SCOREP_ONLINEACCESS_REG_HOST=aopcja; export SCOREP_ONLINEACCESS_APPL_NAME=appl19441; export SCOREP_TUNING_PLUGINS=EnoptTP,OpenMPTP;
