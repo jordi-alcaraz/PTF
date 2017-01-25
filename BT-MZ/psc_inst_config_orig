@@ -1,0 +1,22 @@
+#
+#  instrumentation control for periscope
+#
+#  id  filename      [mpi,mod_only,sub,omp,user,sub,csub,omp,loop,omp,sub,omp]  # if any
+#
+    1  bt.f                                  sub,user,call
+    2  initialize.f                          sub,call
+    3  exact_solution.f                      call
+    4  exact_rhs.f                           call
+    5  set_constants.f                       sub,call
+    6  adi.f                                 sub,call
+    7  rhs.f                                 sub,call
+    8  zone_setup.f                          sub,call
+    9  x_solve.f                             sub,call 
+   10  y_solve.f                             sub,call
+   11  exch_qbc.f                            sub,call
+   12  z_solve.f                             sub,call
+   13  add.f                                 sub,call
+   14  error.f                               sub,call
+   15  verify.f                              sub,call
+   16  omp_setup.f                           sub,call
+   17  mpi_setup.f                           sub,call

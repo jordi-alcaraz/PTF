@@ -1,0 +1,21 @@
+#!/bin/bash
+#@ wall_clock_limit = 00:10:00
+#@ job_name = BT-MZ
+#@ job_type = parallel
+#@ class = test
+#@ output = job$(jobid).out
+#@ error = job$(jobid).out
+#@ node = 1
+#@ total_tasks = 4
+#@ node_usage = not_shared
+#@ queue
+. /etc/profile
+source ~/.bashrc
+date
+
+
+date
+#mpiexec -n 4 bt-mz.B.4
+psc_frontend --apprun=bt-mz.C.4 --mpinumprocs=4 --ompnumthreads=1 --debug=6  --tune=compilerflags  --selective-debug=AutotuneAll --pedantic --force-localhost --maxcluster=32
+#psc_frontend --apprun=bt-mz.C.4 --mpinumprocs=4 --ompnumthreads=1 --strategy=mpi --debug=6 --force-localhost --pedantic
+date
